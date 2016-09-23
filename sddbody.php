@@ -72,8 +72,8 @@ $disposizione['causale']="addebito";
                                 <LMSG:Issr>CBI</LMSG:Issr>
                             </LMSG:Othr>
                             <!--<LMSG:Othr>
-                                    <LMSG:Id>RSSMRC80A01F205Z</LMSG:Id>
-                                    <LMSG:Issr>ADE</LMSG:Issr>
+                                    <LMSG:Id>XXXXXX</LMSG:Id>
+                                    <LMSG:Issr>XXX</LMSG:Issr>
                             </LMSG:Othr>-->
                         </LMSG:OrgId>
                     </LMSG:Id>
@@ -96,7 +96,7 @@ $disposizione['causale']="addebito";
                     </LMSG:LclInstrm>
                     <LMSG:SeqTp><?=$sottodistinta['tipo_sequenza_incasso']?></LMSG:SeqTp>
                     <?php /*<LMSG:CtgyPurp>
-                                                <LMSG:Cd>CORT</LMSG:Cd>
+                                                <LMSG:Cd>XXXX</LMSG:Cd>
                                         </LMSG:CtgyPurp>*/ ?>
                 </LMSG:PmtTpInf>
                 <LMSG:ReqdColltnDt><?=$sottodistinta['data_scadenza']?></LMSG:ReqdColltnDt>
@@ -120,8 +120,8 @@ $disposizione['causale']="addebito";
                     <?php /*<LMSG:Id>
                                                 <LMSG:PrvtId>
                                                         <LMSG:Othr>
-                                                                <LMSG:Id>RSSMRC80A01F205Z</LMSG:Id>
-                                                                <LMSG:Issr>ADE</LMSG:Issr>
+                                                                <LMSG:Id>XXXXXX</LMSG:Id>
+                                                                <LMSG:Issr>XXX</LMSG:Issr>
                                                         </LMSG:Othr>
                                                 </LMSG:PrvtId>
                                         </LMSG:Id> */?>
@@ -149,7 +149,7 @@ $disposizione['causale']="addebito";
                 <LMSG:UltmtCdtr>
                         <LMSG:Nm>Creditore Effettivo</LMSG:Nm>
                         <LMSG:PstlAdr>
-                                <LMSG:AdrTp>PBOX</LMSG:AdrTp>
+                                <LMSG:AdrTp>XXXX</LMSG:AdrTp>
                                 <LMSG:Dept>a</LMSG:Dept>
                                 <LMSG:SubDept>a</LMSG:SubDept>
                                 <LMSG:StrtNm>a</LMSG:StrtNm>
@@ -163,14 +163,14 @@ $disposizione['causale']="addebito";
                         </LMSG:PstlAdr>
                         <LMSG:Id>
                                 <LMSG:OrgId>
-                                        <LMSG:BICOrBEI>AAAAAA20</LMSG:BICOrBEI>
+                                        <LMSG:BICOrBEI>XXXXXXXX</LMSG:BICOrBEI>
                                 </LMSG:OrgId>
                         </LMSG:Id>
                 </LMSG:UltmtCdtr>
                 <LMSG:ChrgBr>SLEV</LMSG:ChrgBr>
                 <LMSG:ChrgsAcct>
                         <LMSG:Id>
-                                <LMSG:IBAN>IT46D0306310001123400004321</LMSG:IBAN>
+                                <LMSG:IBAN>XXXXXXXXXXXXXXXXXXXXXXXX</LMSG:IBAN>
                         </LMSG:Id>
                 </LMSG:ChrgsAcct>
                 */?>
@@ -246,11 +246,11 @@ $disposizione['causale']="addebito";
                                                                         <LMSG:Id>
                                                                                 <LMSG:PrvtId>
                                                                                         <LMSG:Othr>
-                                                                                                <LMSG:Id>RSSMRC80A01F205Z</LMSG:Id>
+                                                                                                <LMSG:Id>XXXXXXXXXXXXXXXX</LMSG:Id>
                                                                                                 <LMSG:SchmeNm>
                                                                                                         <LMSG:Cd>a</LMSG:Cd>
                                                                                                 </LMSG:SchmeNm>
-                                                                                                <LMSG:Issr>ADE</LMSG:Issr>
+                                                                                                <LMSG:Issr>XXX</LMSG:Issr>
                                                                                         </LMSG:Othr>
                                                                                 </LMSG:PrvtId>
                                                                         </LMSG:Id>
@@ -258,19 +258,19 @@ $disposizione['causale']="addebito";
                                                                 </LMSG:OrgnlCdtrSchmeId>
                                                                 <LMSG:OrgnlCdtrAgt>
                                                                         <LMSG:FinInstnId>
-                                                                                <LMSG:BIC>AAAAAA20</LMSG:BIC>
+                                                                                <LMSG:BIC>XXXXXXXX</LMSG:BIC>
                                                                         </LMSG:FinInstnId>
                                                                 </LMSG:OrgnlCdtrAgt>
-                                                                <LMSG:OrgnlFnlColltnDt>1967-08-13</LMSG:OrgnlFnlColltnDt>
+                                                                <LMSG:OrgnlFnlColltnDt>YYYY-MM-DD</LMSG:OrgnlFnlColltnDt>
                                                                 <LMSG:OrgnlFrqcy>YEAR</LMSG:OrgnlFrqcy>
                                                         </LMSG:AmdmntInfDtls>
                                                         <LMSG:ElctrncSgntr>a</LMSG:ElctrncSgntr>
-                                                        <LMSG:FrstColltnDt>1967-08-13</LMSG:FrstColltnDt>
-                                                        <LMSG:FnlColltnDt>1967-08-13</LMSG:FnlColltnDt>
+                                                        <LMSG:FrstColltnDt>YYYY-MM-DD</LMSG:FrstColltnDt>
+                                                        <LMSG:FnlColltnDt>YYYY-MM-DD</LMSG:FnlColltnDt>
                                                         <LMSG:Frqcy>MNTH</LMSG:Frqcy> */ ?>
                         </LMSG:MndtRltdInf>
                         <?php /* <LMSG:PreNtfctnId>a</LMSG:PreNtfctnId> */ ?>
-                        <?php /* <LMSG:PreNtfctnDt>1967-08-13</LMSG:PreNtfctnDt> */ ?>
+                        <?php /* <LMSG:PreNtfctnDt>YYYY-MM-DD</LMSG:PreNtfctnDt> */ ?>
                     </LMSG:DrctDbtTx>
                     <LMSG:Dbtr>
                         <LMSG:Nm><?=$disposizione['debitore']?></LMSG:Nm>
@@ -288,7 +288,7 @@ $disposizione['causale']="addebito";
                                                 </LMSG:PstlAdr>
                                                 <LMSG:Id>
                                                         <LMSG:OrgId>
-                                                                <LMSG:BICOrBEI>AAAAAA20</LMSG:BICOrBEI>
+                                                                <LMSG:BICOrBEI>XXXXXXXX</LMSG:BICOrBEI>
                                                         </LMSG:OrgId>
                                                 </LMSG:Id>
                                                 <LMSG:CtryOfRes>IT</LMSG:CtryOfRes>*/ ?>
